@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family:"futurak" ;
+    src: url(./Fonts/futurak.ttf);
+}
+
+header {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 200px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+}
+
+.right {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.btns {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.btns button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+#order {
+    background-color: red;
+}
+
+.red {
+    color: red !important;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+/* banner */
+.banner {
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+}
+
+/* brand */
+.brand {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 15px 0px 15px;
+    padding-top: 70px;
+    gap: 50px;
+}
+
+.brand .content {
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.brand .boxes {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.box1 {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.salt  {
+      background-color: white; 
+    width: 100%;
+    border-radius: 5px;
+}
+.box1 button{
+    outline: none;
+    border: none;
+    background: transparent;
+    padding: 10px ;
+    border: 1px solid rgba(255, 255,255, 0.3);
+    border-radius: 50px;
+}
+.box1 button a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+
+}
+
+    
+
+.salt img{
+    width: 100%;
+    
+
+}
+#futurak{
+    font-family: futurak;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 52px;
+}
+/* franchise start  */
+.franchise{
+    background-color:black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 70px;
+    position: relative;
+    color: white;
+}
+.franchise .content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+.isb{
+    display: flex;
+    gap: 30px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+} 
+.info button{
+   width: 45%;
+     outline: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.s{
+    position: absolute;
+    top: 0;
+    right: 30px;
+}
+
+
+/* franchise end  */
+/* express section start  */
+.express {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 15px 0px 15px;
+    padding-top: 70px;
+    gap: 50px;
+    color: white;
+}
+
+.express .text {
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.express .imgs {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.img1 {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+     gap: 20px;
+    align-items: center;
+}
+.sugar  {
+      background-color: white; 
+    width: 100%;
+    border-radius: 5px;
+}
+.img1 button{
+    outline: none;
+    border: none;
+    background: transparent;
+    padding: 10px ;
+    border: 1px solid rgba(255, 255,255, 0.3);
+    border-radius: 50px;
+    color: white;
+}
+.img1 button a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+.sugar img{
+    width: 100%;
+}
+
+/* express section end */
